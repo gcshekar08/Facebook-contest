@@ -119,3 +119,5 @@ if __name__ == '__main__':
     #Solving classification problems inside each grid cell
     th = 5 #Keeping place_ids with more than th samples.   
     process_grid(df_train, df_test, th, n_cell_x*n_cell_y)
+    
+    
